@@ -1,0 +1,1261 @@
+/**************specification**************/
+
+body {
+  font-family: "Rubik", sans-serif, sans-serif;
+  font-size: 18px;
+  color: #756e76;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button {
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  color: #261d56;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  color: #261d56;
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+a,
+button,
+input {
+  transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+  outline: none;
+}
+
+/**************************Swiper********************************************************************************************************/
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  /* text-align: center; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding-top: 25px;
+  padding-left: 5px;
+}
+
+/**************header**************/
+
+.header {
+  background: url(../img/header-bg.png) no-repeat right top;
+  position: relative;
+}
+
+.header:after {
+  content: "";
+  width: 245px;
+  height: 353px;
+  background: url(../img/header-bg-2.png) no-repeat;
+  position: absolute;
+  left: 0;
+  top: 197px;
+  z-index: -1;
+}
+
+.geo {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding-left: 25px;
+  background: url(../img/icon-geo.png) no-repeat 5px center;
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+
+.menu__link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 5px 20px;
+}
+
+.tel:hover {
+  color: #000;
+}
+
+.menu__link:hover {
+  color: #000;
+}
+.nav-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  padding: 9px 18px 8px;
+  border: 1px solid #ffffff;
+  border-radius: 30px;
+  background: #484ce6;
+}
+
+.nav-btn:hover {
+  color: #484ce6;
+  padding: 9px 18px 8px;
+  border: 1px solid transparent;
+  background: #fff;
+}
+
+.nav-wrap {
+  margin-bottom: 10px;
+  padding-top: 15px;
+}
+
+.offer-title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  color: #261d56;
+  margin: 178px 0 22px;
+}
+
+.offer-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  color: #756e76;
+  margin-bottom: 42px;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 16px 35px 15px;
+  background: #484ce6;
+  border-radius: 50px;
+  border: 1px solid #484ce6;
+  box-shadow: 0px 20px 40px -16px rgba(1, 4, 121, 0.3);
+  /* border-radius: 100px; */
+}
+.btn:hover {
+  background: #fff;
+  color: #484ce6;
+  box-shadow: 0px 0px 0px 0px rgba(1, 4, 121, 0.3);
+}
+
+.offer {
+  overflow: hidden;
+}
+
+.offer-img {
+  margin-top: 44px;
+  position: relative;
+}
+
+.offer-img-bg {
+  background: url(../img/offer-bg-img.png) no-repeat;
+  position: absolute;
+  width: 658px;
+  height: 640px;
+  top: -5px;
+  left: -123px;
+  z-index: -1;
+}
+
+.offer-list-wrap {
+  margin-top: 99px;
+}
+
+.offer-item {
+  padding: 16px 26px 14px 74px;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  margin-bottom: 40px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+}
+
+.offer-item__text {
+  font-size: 14px;
+  line-height: 150%;
+}
+.offer-item_icon-1 {
+  background: #fff url(../img/offer-icon-1.png) no-repeat 20px 25px;
+}
+.offer-item_icon-2 {
+  background: #fff url(../img/offer-icon-2.png) no-repeat 20px 25px;
+}
+.offer-item_icon-3 {
+  background: #fff url(../img/offer-icon-3.png) no-repeat 20px 25px;
+}
+.offer-item_icon-4 {
+  background: #fff url(../img/offer-icon-4.png) no-repeat 20px 25px;
+}
+.offer-item_icon-5 {
+  background: #fff url(../img/offer-icon-5.png) no-repeat 20px 25px;
+}
+
+/****************************Certificates**************************************************************************/
+
+.certificates {
+  padding: 90px 0 116px;
+  background: url(../img/certificates-bg-3.png) no-repeat right;
+}
+
+.certificates-img {
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  position: relative;
+  display: block;
+}
+
+.certificates-img-wrap:after {
+  content: "";
+  width: 158px;
+  height: 158px;
+  background: url(../img/certificates-bg-1.png) no-repeat;
+  position: absolute;
+  left: 222px;
+  bottom: -50px;
+  z-index: -1;
+}
+
+.certificates-title {
+  margin-top: 50px;
+}
+
+.certificates-title::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: url(../img/certificates-bg-2.png) no-repeat;
+  position: absolute;
+  top: -5px;
+  left: 300px;
+  z-index: -1;
+}
+
+.certificates-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  color: #756e76;
+  margin-top: 20px;
+}
+
+.ethics {
+  margin: 141px 0 20px;
+}
+
+.certificate-img {
+  margin-bottom: 20px;
+  box-shadow: 0px 10px 40px rgba(75, 75, 75, 0.08);
+  border-radius: 10px;
+}
+
+.certificate-wrap {
+  margin-top: 78px;
+}
+/**************************Symptoms**********************************************************************/
+
+.symptoms {
+  background: #484ce6 url(../img/symptoms-bg-1.png) no-repeat left top;
+  padding: 53px 0 106px;
+  position: relative;
+}
+
+.arrow-1 {
+  position: absolute;
+  top: -70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.arrow-2 {
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.symptoms::before {
+  content: "";
+  width: 958px;
+  height: 900px;
+  background: url(../img/symptoms-bg-2.png) no-repeat;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.symptoms-title {
+  max-width: 755px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.symptoms-text {
+  max-width: 845px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: center;
+  color: #ffffff;
+  margin: 20px auto 71px;
+}
+
+.symptoms-item {
+  margin-bottom: 20px;
+}
+
+.symptoms-item__icon {
+  min-width: 72px;
+  height: 72px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+}
+
+.symptoms-item__icon_icin-1 {
+  background: #6165fa url(../img/symptoms-icon-1.png) no-repeat center;
+}
+.symptoms-item__icon_icin-2 {
+  background: #6165fa url(../img/symptoms-icon-7.png) no-repeat center;
+}
+.symptoms-item__icon_icin-3 {
+  background: #6165fa url(../img/symptoms-icon-2.png) no-repeat center;
+}
+.symptoms-item__icon_icin-4 {
+  background: #6165fa url(../img/symptoms-icon-8.png) no-repeat center;
+}
+.symptoms-item__icon_icin-5 {
+  background: #6165fa url(../img/symptoms-icon-3.png) no-repeat center;
+}
+.symptoms-item__icon_icin-6 {
+  background: #6165fa url(../img/symptoms-icon-9.png) no-repeat center;
+}
+.symptoms-item__icon_icin-7 {
+  background: #6165fa url(../img/symptoms-icon-4.png) no-repeat center;
+}
+.symptoms-item__icon_icin-8 {
+  background: #6165fa url(../img/symptoms-icon-10.png) no-repeat center;
+}
+.symptoms-item__icon_icin-9 {
+  background: #6165fa url(../img/symptoms-icon-5.png) no-repeat center;
+}
+.symptoms-item__icon_icin-10 {
+  background: #6165fa url(../img/symptoms-icon-11.png) no-repeat center;
+}
+.symptoms-item__icon_icin-11 {
+  background: #6165fa url(../img/symptoms-icon-6.png) no-repeat center;
+}
+.symptoms-item__icon_icin-12 {
+  background: #6165fa url(../img/symptoms-icon-12.png) no-repeat center;
+}
+
+.symptoms-item__text {
+  align-items: center;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 130%;
+  color: #ffffff;
+  margin-left: 20px;
+  display: flex;
+}
+
+.ignore {
+  max-width: 700px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #ffffff;
+  margin: 58px auto 0;
+}
+
+/***********************Endocrinology*****************************************/
+
+.endocrinology {
+  padding-top: 58px;
+  background: url(../img/endocrinology-bg-1.png) no-repeat right center;
+}
+
+.endocrinology-title {
+  margin: 96px 0 50px;
+}
+
+.delimiter {
+  width: 100%;
+  height: 41px;
+  background: url(../img/endocrinology-bg-2.png) no-repeat left;
+  margin: 28px 0 85px;
+}
+
+.endocrinology-title-2 {
+  max-width: 940px;
+}
+
+.endocrinology-text-2 {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  color: #756e76;
+  max-width: 760px;
+  margin: 20px 0 51px;
+}
+
+.endocrinology-item {
+  box-shadow: 0px 56px 62px -39px rgba(0, 0, 0, 0.3);
+  background: #6165fa url(../img/endocrinology-bg-5.png) no-repeat right bottom;
+  border-radius: 10px;
+}
+
+.endocrinology-item__img-2 {
+  width: 100%;
+}
+
+.endocrinology-item__text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 25px 20px;
+}
+
+.warranty {
+  background: #484ce6 url(../img/endocrinology-bg-3.png) no-repeat right bottom;
+  margin-top: -60px;
+}
+
+.warranty-text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 170%;
+  color: #ffffff;
+  max-width: 907px;
+  padding: 111px 0 90px;
+}
+
+.warranty-text span {
+  font-weight: bold;
+}
+/*****************************Treatment******************************/
+
+.treatment {
+  padding: 100px 0 115px;
+}
+
+.treatment-list-ttle {
+  font-size: 22px;
+  line-height: 130%;
+  color: #261d56;
+}
+
+.treatment-list-ttle span {
+  color: #484ce6;
+  font-weight: bold;
+}
+
+.treatment-text {
+  margin: 31px 0 34px;
+}
+
+.treatment-img {
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+}
+
+.treatment-item__icon {
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  width: 144px;
+  height: 144px;
+  margin: 0 auto 15px;
+}
+
+.treatment-item__icon_1 {
+  background: url(../img/treatment-icon-1.png) no-repeat center;
+}
+.treatment-item__icon_2 {
+  background: url(../img/treatment-icon-2.png) no-repeat center;
+}
+.treatment-item__icon_3 {
+  background: url(../img/treatment-icon-3.png) no-repeat center;
+}
+.treatment-item__icon_4 {
+  background: url(../img/treatment-icon-4.png) no-repeat center;
+}
+
+.treatment-item__text {
+  font-size: 14px;
+  line-height: 160%;
+  text-align: center;
+}
+
+.treatment-list {
+  margin: 80px 0 62px;
+}
+
+.questions {
+  background: #f9fafd;
+  border: 1px solid #484ce6;
+  border-radius: 20px;
+  padding: 27px 56px 28px 34px;
+}
+
+.questions__text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #261d56;
+}
+
+.questions-title {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 130%;
+  text-align: center;
+  color: #261d56;
+  margin: 20px 0 25px;
+}
+.questions {
+  padding: 14px 18px;
+}
+
+/*************************************Reviews**********************************************************************************/
+
+.reviews {
+  background: url(../img/reviews-bg-1.png) no-repeat left -24px;
+  padding-bottom: 53px;
+}
+
+.reviews-title {
+  margin-bottom: 17px;
+  position: relative;
+}
+
+.reviews-img {
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.reviews-img-bg {
+  position: absolute;
+  top: -21px;
+  left: 187px;
+}
+
+.reviews-item-title {
+  font-size: 20px;
+  margin-bottom: 7px;
+}
+
+.reviews-item-text {
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.reviews-title:before {
+  content: "";
+  width: 173px;
+  height: 173px;
+  background: url(../img/reviews-bg-2.png) no-repeat;
+  position: absolute;
+  bottom: -150px;
+  left: 821px;
+  z-index: -1;
+}
+
+.slider-arrows {
+  width: 160px;
+  height: 44px;
+  box-shadow: 10px 30px 50px rgba(28, 30, 62, 0.08);
+  border-radius: 4px;
+  position: relative;
+}
+
+.slider-arrows::after {
+  content: "";
+  width: 1px;
+  height: 44px;
+  background: #e1e3f7;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.arrow-left {
+  width: 80px;
+  height: 44px;
+  display: inline-block;
+  background: url(../img/arrow-left.png) no-repeat 53px 17px;
+  outline: none;
+}
+
+.arrow-right {
+  width: 80px;
+  height: 44px;
+  display: inline-block;
+  background: url(../img/arrow-right.png) no-repeat 20px 17px;
+  outline: none;
+}
+
+.arrow-right:hover {
+  background: url(../img/arrow-right-active.png) no-repeat 53px 17px;
+}
+
+.arrow-left:hover {
+  background: url(../img/arrow-left-active.png) no-repeat 20px 17px;
+}
+/*************************Price***********************************************************/
+
+.price {
+  padding: 143px 0 100px;
+  position: relative;
+  background: url(../img/price-bg-2.png) no-repeat right top;
+}
+
+.price::after {
+  content: "";
+  width: 171px;
+  height: 387px;
+  position: absolute;
+  left: 0;
+  bottom: 73px;
+  background: url(../img/price-bg-1.png) no-repeat;
+  z-index: -1;
+}
+
+.price-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 130%;
+  color: #e542ae;
+}
+
+.price-text {
+  font-size: 20px;
+  line-height: 130%;
+  color: #261d56;
+  margin: 23px 0 54px;
+}
+
+.price-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.price-item {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  padding: 32px 40px 15px;
+  position: relative;
+  background: #fff;
+  z-index: 1;
+}
+
+.price-item::after {
+  content: "";
+  width: 100%;
+  height: 84px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url(../img/price-item-bg.png) no-repeat;
+  z-index: -1;
+  background-size: cover;
+}
+
+.price-item__icon {
+  width: 116px;
+  height: 116px;
+  border-radius: 50%;
+}
+
+.price-item__icon_1 {
+  background: rgba(72, 76, 230, 0.06) url(../img/price-icon-1.png) no-repeat
+    center;
+  margin: 0 auto;
+}
+
+.price-item__icon_2 {
+  background: rgba(72, 76, 230, 0.06) url(../img/price-icon-2.png) no-repeat
+    center;
+  margin: 0 auto;
+}
+
+.price-item__icon_3 {
+  background: rgba(72, 76, 230, 0.06) url(../img/price-icon-3.png) no-repeat
+    center;
+  margin: 0 auto;
+}
+
+.price-item__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 170%;
+  color: #261d56;
+  margin: 30px 0 67px;
+}
+
+.price-item__title span {
+  font-size: 26px;
+  color: #898989;
+}
+
+.price-item__text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*****************************Request**********************************/
+
+.request {
+  padding: 51px 0 61px;
+  background: #484ce6 url(../img/request-bg.png) no-repeat right top;
+}
+
+.request-title {
+  font-size: 36px;
+  line-height: 130%;
+  color: #fff;
+}
+
+.request-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 170%;
+  margin: 1px 0 31px;
+  color: #fff;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid #d0d4e2;
+  border-radius: 50px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 170%;
+  color: #ffffff;
+  padding: 11px 0 10px 20px;
+  width: 100%;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+.form-btn {
+  background: #ffffff;
+  border-radius: 50px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 170%;
+  text-align: center;
+  color: #484ce6;
+  border: 1px solid transparent;
+  padding: 10px 0;
+}
+
+.form-btn:hover {
+  background: #484ce6;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/****************************************Footer******************************************************/
+
+.footer-nav {
+  background: #261d56 url(../img/footer-bg.png) no-repeat left top;
+  padding: 28px 40px;
+}
+
+footer .menu__link {
+  font-size: 14px;
+  line-height: 130%;
+}
+
+footer .menu__link:hover {
+  color: #898989;
+}
+
+.contacts-item {
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  padding: 2px 0 2px 18px;
+  margin-bottom: 7px;
+}
+
+.contacts-item_icon-1 {
+  background: url(../img/footer-icon-1.png) no-repeat left;
+}
+
+.contacts-item_icon-2 {
+  background: url(../img/footer-icon-2.png) no-repeat left;
+}
+
+.contacts-item_icon-3 {
+  background: url(../img/footer-icon-3.png) no-repeat left;
+}
+
+.footer-email,
+.tel-footer {
+  color: #fff;
+}
+
+.tel-footer {
+  font-weight: bold;
+}
+
+.footer-btn {
+  border: 1px dashed #ffd100;
+  background: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 170%;
+  padding: 6px 20px;
+}
+
+.footer-rights {
+  background: #161035;
+  padding: 17px 0;
+}
+
+.rights {
+  font-size: 12px;
+  line-height: 14px;
+  color: #6f669f;
+}
+
+.developer {
+  font-size: 12px;
+  line-height: 14px;
+  color: #c3c0d3;
+}
+
+/***********Media Queries****************************************************/
+
+/*____________ 992-1199px______________ */
+@media screen and (max-width: 1199px) {
+  .offer-img-bg {
+    width: 619px;
+  }
+  .certificates-img {
+    width: 446px;
+  }
+  .certificate-img-widh {
+    width: 310px;
+  }
+  .endocrinology-img {
+    max-width: 480px;
+  }
+  .endocrinology-title {
+    margin: 36px 0 50px;
+  }
+  .reviews-title:before {
+    left: 652px;
+  }
+  .treatment-img {
+    max-width: 400px;
+  }
+  .reviews-img {
+    max-width: 440px;
+  }
+  .header {
+    background: url(../img/header-bg.png) no-repeat -58px top;
+  }
+}
+
+/*_______________ 768-991px____________ */
+@media screen and (max-width: 991px) {
+  .nav-wrap {
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .logo {
+    padding: 13px 0;
+  }
+  .nav-wrapper {
+    background: #fff;
+  }
+  .header {
+    background: url(../img/header-bg.png) no-repeat right top;
+  }
+  .header:after {
+    display: none;
+  }
+  .reviews-title:before {
+    display: none;
+  }
+  .endocrinology-item {
+    max-width: 350px;
+    margin: 0 auto 35px;
+  }
+  .warranty {
+    margin-top: -110px;
+  }
+  .offer-title {
+    margin: 50px 0 22px;
+  }
+  .offer-text {
+    color: #fff;
+    text-align: right;
+  }
+  .certificates-img {
+    margin: 40px auto 0;
+  }
+  .certificates {
+    padding: 0px 0 50px;
+  }
+  .ethics {
+    margin: 57px 0 20px;
+  }
+  .endocrinology-img {
+    margin: 0 auto;
+    display: flex;
+  }
+  .delimiter {
+    margin: 28px 0 15px;
+  }
+  .treatment {
+    padding: 76px 0 20px;
+  }
+  .treatment-list-ttle {
+    margin-top: 50px;
+  }
+  .treatment-img {
+    display: flex;
+    margin: 0 auto;
+  }
+  .treatment-item {
+    max-width: 500px;
+    margin: 0 auto 50px;
+  }
+  .reviews {
+    background: none;
+  }
+  .reviews::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 41px;
+    background: url(../img/endocrinology-bg-2.png) no-repeat;
+  }
+  .reviews-title {
+    margin-top: 20px;
+  }
+  .treatment-list {
+    margin: 80px 0 0px;
+  }
+  .reviews-img {
+    margin: 30px auto 0;
+    display: block;
+  }
+  .slider-arrows {
+    margin: 30px auto 0;
+  }
+  .price {
+    padding: 0px 0 50px;
+  }
+  .price-item {
+    max-width: 280px;
+    margin: 0 auto 30px;
+  }
+  .request {
+    padding: 51px 0 160px;
+    background: #484ce6 url(../img/request-bg.png) no-repeat -148px bottom;
+  }
+  .form-tel {
+    margin: 20px 0;
+  }
+  .footer-nav {
+    background: #261d56;
+  }
+  .logo-link {
+    margin: 5px auto;
+  }
+  .contacts-item {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+  .footer-btn {
+    margin: 14px auto;
+    display: block;
+    width: 220px;
+  }
+  .footer-rights {
+    text-align: center;
+  }
+  .logo-developer-link {
+    margin: 0 auto;
+  }
+  .developer {
+    margin-top: 20px;
+  }
+}
+
+/*_____________ 576-768px _____________*/
+@media screen and (max-width: 767px) {
+  .offer-title {
+    margin: 50px 0 22px;
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+  }
+  .offer-text {
+    text-align: left;
+  }
+  .offer-btn {
+    margin: 50px auto 0;
+    display: block;
+  }
+  .offer-list-wrap {
+    margin-top: 60px;
+  }
+  .certificates-title {
+    font-size: 24px;
+  }
+  .symptoms-title {
+    font-size: 24px;
+  }
+  .ignore {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .ignore {
+    font-size: 14px;
+  }
+  .warranty-text {
+    font-size: 16px;
+  }
+  .treatment-list-ttle {
+    font-size: 18px;
+  }
+  .questions__text {
+    font-size: 16px;
+  }
+  .price-title {
+    font-size: 24px;
+  }
+  .request-title {
+    font-size: 24px;
+  }
+}
+
+/*_____________ 320-576px _____________*/
+@media screen and (max-width: 575px) {
+  .header {
+    background: url(../img/header-bg.png) no-repeat -717px top;
+  }
+  .offer-img {
+    width: 300px;
+    margin: 0 auto;
+    display: block;
+  }
+  .offer-item {
+    height: 110px;
+  }
+  .certificates-img {
+    width: 300px;
+  }
+  .certificates-img-wrap:after {
+    display: none;
+  }
+  .certificate-img {
+    width: 90px;
+  }
+  .offer-item {
+    margin-bottom: 30px;
+  }
+  .certificates-text {
+    font-size: 16px;
+  }
+  .certificate-img-widh {
+    width: 190px;
+  }
+  .ethics {
+    font-size: 16px;
+  }
+  .symptoms-item__text {
+    font-size: 15px;
+  }
+  .endocrinology-img {
+    width: 300px;
+  }
+  .treatment-img {
+    width: 300px;
+  }
+  .reviews-img {
+    width: 280px;
+  }
+  .offer-img-bg {
+    background: url(../img/offer-bg-img.png) no-repeat -28px top;
+    top: -35px;
+    left: 50%;
+    z-index: -1;
+    width: 424px;
+    background-size: contain;
+    transform: translateX(-50%);
+  }
+}
+
+/*************Hamburger Menu************/
+
+.hamburger-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 568px;
+  background: #fff;
+  z-index: 3;
+  top: 50px;
+  right: 0;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu .tel {
+  color: #484ce6;
+}
+
+.hamburger-menu-wrap {
+  margin-top: 120px;
+}
+
+.hamburger-menu-wrap .menu__item {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.hamburger-menu-wrap .menu__link {
+  padding: 24px 0;
+  color: #000;
+}
+
+/*****************************Modal*******************************************************************/
+
+.modal-body input {
+  border: 1px solid #d0d4e2;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 170%;
+  color: #000;
+  padding: 11px 0 10px 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.modal-body input::placeholder {
+  color: #000;
+}
+
+.modal-body .form-btn {
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  background: #484ce6;
+  border-radius: 150px;
+  color: #fff;
+}
+
+.modal-body .form-btn:hover {
+  border: 1px solid #484ce6;
+  background: #fff;
+  color: #484ce6;
+}
+.modal-body {
+  font-size: 14px;
+  line-height: 150%;
+  color: #212121;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 20px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #212121;
+  margin: 0 auto;
+}
